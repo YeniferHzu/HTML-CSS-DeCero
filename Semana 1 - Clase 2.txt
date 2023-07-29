@@ -1,0 +1,44 @@
+Semana 1: Fundamentos de HTML
+	
+Clase 2: Creando la estructura de una página
+
+¡Hola de nuevo, Yen! En esta segunda clase, aprenderemos cómo crear la estructura de una página web utilizando las etiquetas y elementos que ya conocemos. ¡Vamos a darle forma a tu contenido!
+
+Temas a cubrir:
+-Encabezados, párrafos, listas y enlaces:
+ -Revisaremos nuevamente las etiquetas de encabezado <h1> al <h6>, que se utilizan para dar títulos a las secciones de tu página.
+-Practicaremos cómo agregar párrafos utilizando la etiqueta <p> para organizar y presentar tus ideas.
+ -Aprenderemos cómo crear listas, tanto ordenadas (<ol>) como desordenadas (<ul>), y cómo incluir elementos de lista (<li>).
+ -También veremos cómo añadir enlaces (<a>) para conectar tu página con otras páginas web o recursos en línea.
+
+Imágenes y atributos relacionados:
+-Trabajaremos con la etiqueta <img> para agregar imágenes a tu página web.
+ -Exploraremos atributos importantes, como src para especificar la ruta de la imagen y alt para proporcionar un texto alternativo en caso de que la imagen no se cargue.
+
+Estructurando tu contenido:
+-Aprenderemos sobre la importancia de utilizar una estructura lógica en tu página web.
+-Veremos cómo dividir el contenido en secciones para facilitar la navegación y la comprensión de tus visitantes.
+
+Actividades sugeridas:
+
+-Ejercicio de estructura básica: Crearemos juntos una estructura básica para una página web que incluya encabezados, párrafos y una lista de tus intereses. Añadiremos también enlaces a tus redes sociales o a sitios que desees compartir.
+-Agregar imágenes a tu página: Practicaremos cómo incluir una imagen que te represente utilizando la etiqueta <img> y los atributos correspondientes.
+-Estructurando tu contenido: Trabajaremos en la organización del contenido de tu página web, dividiéndolo en secciones apropiadas y utilizando los encabezados adecuados.
+
+Actividades específicas:
+
+-Ejercicio de estructura básica:
+	Abre el archivo HTML que creaste en la Clase 1 utilizando un editor de código o un editor de texto como Notepad++ o Visual Studio Code.
+	Asegúrate de tener la estructura básica del documento HTML, que incluye las etiquetas <html>, <head> y <body>.
+        	Dentro de la etiqueta <body>, crea una sección para la introducción a tu página. Agrega un encabezado <h1> con el título "Bienvenido a mi página" y un párrafo <p> con un saludo o una breve descripción sobre ti.
+
+-Agregar una lista de intereses:
+	Continuando con la estructura que has creado, crea una lista desordenada <ul> que contenga al menos tres elementos de lista <li>. En cada elemento <li>, escribe uno de tus intereses. Por ejemplo: <a href="https://github.com/YeniferHzu">Mi Github</a>
+
+-Agregar enlaces a tus redes sociales:
+    	Utiliza la etiqueta <a> para agregar enlaces a tus redes sociales o a sitios web que desees compartir.
+    Por ejemplo, si deseas agregar un enlace a tu perfil de GitHub, puedes hacerlo así: <img src="perfil.jpg" alt="Imagen representativa de Yenifer Hzu">
+
+-Agregar una imagen representativa:
+	Guarda una imagen en la misma carpeta que tu archivo HTML. Asegúrate de que la imagen tenga un nombre que puedas reconocer fácilmente, por ejemplo, "perfil.jpg" o "imagen-yo.png".
+	Utiliza la etiqueta <img> para agregar la imagen a tu página web. Asegúrate de proporcionar el atributo src con la ruta de la imagen y el atributo alt con una descripción breve de la imagen:	<img src="perfil.jpg" alt="Imagen representativa de Yenifer Hzu">

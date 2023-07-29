@@ -1,0 +1,36 @@
+Semana 1: Fundamentos de HTML
+
+Clase 5: Proyecto de HTML
+
+En esta clase, pondremos en práctica todos los conocimientos adquiridos hasta ahora para crear una página web completa. Utilizaremos HTML semántico y CSS para darle estilo y diseño a nuestro proyecto. El objetivo es crear una página web personal o temática que incluya una estructura clara y contenido significativo.
+
+Pasos para crear tu Proyecto de HTML:
+- Diseño y Planificación:
+        Antes de comenzar a escribir código, planifica cómo deseas que se vea tu página web y qué contenido deseas incluir.
+        Decide qué información presentarás en la página, cómo organizarás el contenido y qué elementos visuales (imágenes, colores, etc.) utilizarás para mejorar la experiencia del usuario.
+- Estructura HTML:
+        Crea la estructura básica de tu página utilizando etiquetas semánticas.
+        Utiliza las etiquetas <header>, <nav>, <main>, <section>, <article>, <aside>, <footer> y otras etiquetas semánticas según la necesidad de tu proyecto.
+-Contenido Significativo:
+        Agrega contenido significativo a cada sección de tu página web.
+        Utiliza párrafos, listas, imágenes y otros elementos para presentar tu información de manera clara y comprensible.
+-Estilos CSS:
+        Crea un archivo CSS externo para dar estilo a tu página web.
+        Utiliza selectores para apuntar a elementos HTML específicos y aplica estilos como colores, tamaños de fuente, márgenes, fondos, etc.
+        Mantén una coherencia visual en todo el diseño para que la página se vea profesional y atractiva.
+-Navegación y Enlaces:
+        Agrega una barra de navegación para facilitar el acceso a diferentes secciones de tu página.
+        Asegúrate de que los enlaces funcionen correctamente y abran en nuevas pestañas si es necesario.
+-Imágenes y Multimedia:
+        Si es relevante para tu proyecto, agrega imágenes, videos o elementos multimedia para enriquecer el contenido.
+-Prueba y Mejora:
+        Revisa tu página web en diferentes dispositivos y navegadores para asegurarte de que se vea bien y sea accesible.
+        Realiza mejoras y ajustes según sea necesario para lograr el resultado deseado.
+
+Actividades sugeridas:
+-Elige tu Tema: Decide sobre qué tema tratará tu página web. Puede ser una página personal, un blog, un portafolio, una página de información sobre un tema específico, etc.
+-Crea la Estructura: Comienza a escribir el código HTML para crear la estructura básica de tu página. Utiliza etiquetas semánticas para definir las secciones principales.
+- Agrega Contenido: Agrega el contenido significativo a cada sección utilizando párrafos, listas, imágenes, etc. Personaliza el contenido según tu tema.
+-Estiliza tu Página: Desarrolla el archivo CSS para aplicar estilos a tu página. Juega con colores, fuentes, márgenes y otros estilos para hacer que tu página se vea atractiva.
+-Agrega Navegación: Agrega una barra de navegación que lleve a los visitantes a diferentes secciones de tu página.
+-Revisa y Mejora: Realiza pruebas en diferentes dispositivos y navegadores para asegurarte de que tu página se vea bien y funcione correctamente. Realiza mejoras según sea necesario.

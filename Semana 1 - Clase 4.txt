@@ -1,0 +1,28 @@
+Semana 1: Fundamentos de HTML
+
+Clase 4: HTML Semántico
+
+En esta clase, nos enfocaremos en aprender sobre la importancia del HTML semántico y cómo utilizar las etiquetas adecuadas para estructurar y dar significado a nuestro contenido. Utilizar HTML semántico es esencial para mejorar la accesibilidad, la optimización para motores de búsqueda y la legibilidad del código.
+
+¿Qué es el HTML Semántico?
+El HTML semántico se refiere a la práctica de utilizar etiquetas HTML apropiadas para representar el significado y la estructura del contenido en lugar de utilizar etiquetas con fines puramente estéticos o de formato. Al utilizar etiquetas semánticas, estamos proporcionando un significado claro y descriptivo al contenido de nuestra página web, lo que facilita la comprensión tanto para los humanos como para los motores de búsqueda.
+
+Etiquetas Semánticas Comunes
+A continuación, exploraremos algunas de las etiquetas semánticas más comunes en HTML y cómo utilizarlas adecuadamente:
+<header>: Esta etiqueta se utiliza para representar la cabecera o encabezado de una sección o página web. Suele contener el logotipo, el menú de navegación y otros elementos importantes.
+<nav>: La etiqueta <nav> se utiliza para definir el menú de navegación de la página.
+ <main>: La etiqueta <main> representa el contenido principal de la página. Debe contener el contenido más relevante y significativo.
+<section>: La etiqueta <section> se utiliza para agrupar contenido relacionado temáticamente. Puede contener encabezados, párrafos, imágenes y otros elementos.
+<article>: La etiqueta <article> se utiliza para representar contenido independiente y autónomo, como un artículo de noticias, una publicación de blog, etc.
+<aside>: La etiqueta <aside> se utiliza para representar contenido relacionado pero no directamente relevante para el contenido principal, como barras laterales o contenidos secundarios.
+<footer>: La etiqueta <footer> representa el pie de página de la página o de una sección. Suele contener información de contacto, enlaces adicionales y derechos de autor.
+
+Beneficios del HTML Semántico:
+Al utilizar etiquetas semánticas de manera adecuada, obtendrás los siguientes beneficios:
+	-Accesibilidad: Mejora la accesibilidad para usuarios con discapacidades visuales o que utilizan tecnologías de asistencia, como lectores de pantalla.
+	- Optimización para Motores de Búsqueda (SEO): Los motores de búsqueda pueden entender mejor la estructura y el contenido de tu página, lo que puede mejorar su posición en los resultados de búsqueda.
+	- Legibilidad del Código: El HTML semántico hace que tu código sea más legible y comprensible para otros desarrolladores que trabajan en el mismo proyecto.
+
+Actividades sugeridas:
+	-Practicar etiquetas semánticas: Revisa el código de tu página web y asegúrate de utilizar etiquetas semánticas apropiadas para cada sección.
+	-Actualizar tu proyecto: Si has creado un proyecto en la Clase 4, asegúrate de utilizar etiquetas semánticas para mejorar la estructura y significado del contenido.

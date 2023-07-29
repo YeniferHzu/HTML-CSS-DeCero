@@ -1,0 +1,33 @@
+Semana 1: Fundamentos de HTML
+
+Clase 3: Tablas y Formularios
+
+En esta tercera clase, exploraremos cómo crear tablas y formularios en HTML. Las tablas son útiles para organizar datos en filas y columnas, mientras que los formularios nos permiten recopilar información de los usuarios. Aprenderemos cómo utilizar estas características para mejorar la estructura de tu página y hacerla más interactiva.
+
+Temas a cubrir:
+
+-Tablas en HTML:
+	Introducción a la etiqueta <table> para crear tablas en HTML.
+	Utilización de las etiquetas <tr> (fila), <th> (celda de encabezado) y <td> (celda de datos) para organizar los elementos de la tabla.
+	Creación de una tabla que contenga información relevante para ti.
+
+-Formularios interactivos:
+ 	Introducción a la etiqueta <form> para crear formularios en HTML.
+	Aprendizaje sobre los diferentes tipos de campos de entrada, como <input type="text">, <input type="checkbox">, <input type="radio">, <textarea>, etc.
+	Utilización de la etiqueta <label> para asociar etiquetas descriptivas a los campos de entrada.
+
+-Elementos de formulario adicionales:
+ 	Aprender cómo agregar botones de envío (<input type="submit">) y botones de reinicio (<input type="reset">) a los formularios.
+ 	Uso de la etiqueta <select> para crear listas desplegables (dropdowns) y la etiqueta <option> para las opciones dentro de la lista.
+
+Actividades sugeridas:
+
+Creando una tabla sobre ti:
+	-Agrega una nueva sección en tu página web donde puedas presentar una tabla con información relevante sobre ti.
+	-Puedes incluir filas y columnas que describan tus habilidades, tus proyectos, tu experiencia, etc.
+Formulario de contacto:
+	-Crea un formulario de contacto donde los visitantes de tu página puedan enviar comentarios o preguntas.
+	-Incluye campos como nombre, correo electrónico, mensaje y un botón de envío.
+Estilo y diseño:
+	-Aprovecha la oportunidad para aplicar estilos CSS a tu página web y hacerla más atractiva visualmente.
+	-Juega con los colores, fuentes y márgenes para darle tu toque personal.

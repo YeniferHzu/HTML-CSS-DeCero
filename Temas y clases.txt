@@ -1,0 +1,69 @@
+Curso de Repaso desde Cero de HTML y CSS (2-3 semanas)
+
+Semana 1: Fundamentos de HTML
+
+Día 1: Introducción a HTML
+    ¿Qué es HTML y su importancia en el desarrollo web?
+    Estructura básica de un documento HTML.
+    Etiquetas, elementos y atributos más comunes.
+
+Día 2: Creando la estructura de una página
+    Encabezados, párrafos, listas y enlaces.
+    Uso de imágenes y atributos relacionados.
+
+Día 3: Tablas y Formularios
+    Creación de tablas para organizar datos.
+    Construcción de formularios interactivos.
+
+Día 4: HTML Semántico
+    Utilización de elementos semánticos en HTML5.
+    Encabezados, secciones, artículos, pies de página, etc.
+
+Día 5: Proyecto HTML
+    Desarrollo de una página web simple utilizando todos los conceptos aprendidos durante la semana.
+
+Semana 2: Fundamentos de CSS
+
+Día 6: Introducción a CSS
+    ¿Qué es CSS y cómo funciona junto con HTML?
+    Selectores y propiedades básicas.
+
+Día 7: Estilizando texto y cajas
+    Cambiar colores, fuentes, tamaño del texto.
+    Modificar márgenes, bordes, rellenos y dimensiones de elementos.
+
+Día 8: Diseño de página y posicionamiento
+    Conceptos de posicionamiento en CSS.
+    Creación de diseños básicos utilizando floats.
+
+Día 9: Flexbox y Responsive Design
+    Introducción a Flexbox para diseños más flexibles.
+    Diseño web responsive: Media queries y adaptación a diferentes dispositivos.
+
+Día 10: Proyecto CSS
+    Aplicar estilos a la página web creada en la semana 1.
+    Mejorar el diseño y hacerlo completamente responsive.
+
+Semana 3: Avanzando con HTML y CSS
+
+Día 11: CSS Grid
+    Introducción a CSS Grid para diseños más avanzados.
+    Creación de diseños complejos y responsivos.
+
+Día 12: Transiciones y Animaciones
+    Agregar interactividad con transiciones y animaciones CSS.
+    Crear efectos visuales para resaltar elementos.
+
+Día 13: Optimización y Buenas Prácticas
+    Técnicas para optimizar el código HTML y CSS.
+    Buenas prácticas en el desarrollo web.
+
+Día 14: Proyecto Final
+    Desarrollo de un proyecto web completo que aplique todos los conceptos aprendidos.
+    Revisión y mejora del código y diseño.
+
+Día 15: Repaso y Recursos adicionales
+    Revisión general de los conceptos clave.
+    Recursos adicionales para continuar aprendiendo y mejorando tus habilidades.
+
+Este curso de repaso de HTML y CSS en dos o tres semanas te proporcionará una base sólida para desarrollar sitios web sencillos y responsive. 

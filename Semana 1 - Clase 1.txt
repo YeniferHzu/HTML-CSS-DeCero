@@ -1,0 +1,42 @@
+Semana 1: Fundamentos de HTML
+
+Clase 1: Introducción a HTML (Especialmente para ti)
+
+HTML (HyperText Markup Language). Es el lenguaje de marcado que permite estructurar y organizar la información en una página web. Esencialmente, es el "esqueleto" de cualquier sitio web. Con HTML, podrás crear tu propio contenido web, compartir tus ideas, mostrar tus proyectos y conectarte con el mundo en línea.
+
+-Estructura básica de un documento HTML
+Un documento HTML comienza con una declaración que define el tipo de documento y su codificación.
+
+-Etiquetas
+Las "tags" HTML, o "etiquetas" HTML, son códigos utilizados para "marcar" el texto de una página web, con el fin de dar instrucciones al navegador sobre cómo mostrarlo.
+Son el lenguaje utilizado para estructurar y definir el contenido en un documento HTML. Estas etiquetas se encuentran en el HTML (o Lenguaje de Marcado de Hipertexto) de cada página. 
+Cada etiqueta contiene instrucciones sencillas que indican al navegador cómo dar formato al texto y a definir los diversos elementos de la página web. Al aplicar estas etiquetas de marcado a los diferentes elementos del texto, se indica al navegador cómo mostrarlos al usuario, lo que permite crear páginas web estructuradas y con un diseño coherente.
+Esto asegura que los navegadores interpreten correctamente tu página.
+	Recuperado de https://es.semrush.com/blog/lista-de-html-tags/
+
+Algunas etiquetas son:
+<html> que engloba todo el contenido de la página.
+<head> se encuentra dentro de la etiqueta de "<html>".
+<body> que también se encuentra dentro de la etiqueta de "<html>"
+<h1> al <h6> engloba los tamaños de encabezados.
+<p> para los párrafos.
+<a> enlaces.
+<img> para las imágenes.
+<ul> y <ol> para usar listas.
+<li> para los elementos de la lista.
+
+Cada etiqueta tiene su función específica, y al combinarlas, podrás dar estructura y sentido a tu contenido.
+
+Creando una página web simple para ti:
+Vamos a construir juntos una página web básica utilizando las etiquetas que hemos aprendido. Agregaremos:
+-Encabezados para el título
+-Un párrafo para presentarnos
+-Una lista de tus intereses.
+-También incluiremos una imagen que te represente
+-Enlaces a tus redes sociales o sitios que desees compartir.
+
+Actividades sugeridas:
+
+-Ejercicio de etiquetas básicas: Vamos a practicar juntos escribiendo código HTML para crear tu sección de intereses. Usaremos encabezados, párrafos y una lista.
+-Creación de tu página personal: Trabajaremos juntos para construir tu primera página web personal. Agregaremos tu nombre, una breve descripción sobre ti, tus intereses y tu imagen.
+-Revisión y resolución de dudas: Revisaremos el código que hemos creado y aclararemos cualquier duda que puedas tener. ¡No dudes en preguntar lo que necesites!
