@@ -1,0 +1,99 @@
+SEMANA 2 
+
+Clase 7: Estilizando texto y cajas con CSS
+
+En esta lección, nos centraremos en cómo estilizar el texto y las cajas de nuestros sitios web utilizando CSS.
+
+Estilizando texto
+El CSS nos permite cambiar la apariencia del texto en nuestras páginas web. Podemos modificar atributos como el color, el tamaño, el tipo de fuente, el espaciado y más. A continuación, veremos algunos ejemplos de cómo estilizar el texto:
+Cambiar colores y fuentes
+
+CSS:
+/* Cambiar el color del texto */
+p {
+  color: blue;
+}
+
+/* Cambiar el tamaño de fuente */
+h1 {
+  font-size: 36px;
+}
+
+/* Cambiar el tipo de fuente */
+h2 {
+  font-family: "Arial", sans-serif;
+}
+
+/* Cambiar el espaciado entre letras */
+h3 {
+  letter-spacing: 2px;
+}
+
+Estilizando cajas
+Además de estilizar el texto, CSS nos permite personalizar las cajas que contienen nuestro contenido. Podemos modificar los márgenes, los bordes, los rellenos y las dimensiones de los elementos. Aquí hay algunos ejemplos de cómo estilizar cajas:
+Modificar márgenes y dimensiones
+
+css
+
+/* Agregar márgenes internos */
+p {
+  padding: 10px;
+}
+
+/* Agregar márgenes externos */
+h1 {
+  margin: 20px;
+}
+
+/* Establecer una altura y ancho fijo */
+img {
+  width: 300px;
+  height: 200px;
+}
+
+Agregar bordes y rellenos
+
+CSS:
+/* Agregar un borde sólido */
+div {
+  border: 2px solid black;
+}
+
+/* Agregar bordes redondeados */
+div {
+  border-radius: 10px;
+}
+
+/* Agregar un relleno interno */
+p {
+  padding: 15px;
+}
+
+/* Agregar un relleno externo */
+h2 {
+  margin: 20px;
+  padding: 10px;
+}
+
+Con "cajas" en el contexto de CSS nos referimos a los elementos HTML que tienen un "modelo de caja" en el cual se combinan cuatro aspectos fundamentales: el contenido, el padding, el borde y el margen. Juntos, estos aspectos forman una "caja" alrededor de cada elemento en la página.
+
+Para entender mejor cada componente de la caja, veamos una breve explicación de cada uno:
+    -Contenido: Es el contenido real del elemento, como el texto, las imágenes o cualquier otro tipo de contenido que esté dentro del elemento HTML.
+    -Padding: Es el espacio que se encuentra entre el contenido y el borde de la caja. Puedes imaginarlo como un espacio interno dentro de la caja que separa el contenido del borde.
+    -Borde: Es la línea que rodea el contenido y el padding. Puedes establecer diferentes estilos, colores y grosores para el borde.
+    -Margen: Es el espacio que se encuentra fuera de la caja y que separa a esta caja de otros elementos cercanos. El margen establece el espacio entre un elemento y sus vecinos.
+
+Entonces, en resumen, cuando hablamos de "cajas" en CSS, nos referimos a la combinación de estos cuatro aspectos que forman la apariencia y el diseño de los elementos HTML. Las "cajas" pueden aplicarse a cualquier tipo de elemento, ya sea un párrafo, una imagen, un botón o incluso una tabla. Cada elemento en la página tiene su propia caja con su contenido, padding, borde y margen.
+Es importante comprender cómo funcionan las cajas en CSS, ya que te permitirá controlar el diseño y la apariencia de tu sitio web de manera más precisa y eficiente. Puedes aplicar estilos como colores de fondo, tamaños, bordes redondeados y márgenes para dar forma y estructura a tus elementos y lograr un diseño visualmente atractivo.
+
+Práctica
+-Aplicar diferentes estilos de texto y cajas a tu proyecto web desarrollado durante la primera semana del curso.
+-Experimenta con diferentes colores, fuentes, tamaños y bordes para mejorar la apariencia de tu página.
+
+Recursos Adicionales
+Si deseas profundizar en la estilización de texto y cajas con CSS, aquí tienes algunos recursos adicionales:
+    W3Schools - CSS Text Styling
+    W3Schools - CSS Box Model
+    CSS-Tricks - A Complete Guide to CSS Box Model
+
+Recuerda que la práctica es clave para mejorar tus habilidades, ¡así que no dudes en experimentar y probar diferentes estilos para tus textos y cajas!

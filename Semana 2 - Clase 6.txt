@@ -1,0 +1,94 @@
+SEMANA 2
+
+Clase 6: Introducción a CSS
+
+Objetivo de la Clase:
+En esta clase, aprenderemos qué es CSS (Cascading Style Sheets), su importancia y cómo se utiliza para dar estilo y diseño a nuestras páginas web creadas con HTML.
+
+Contenido:
+    ¿Qué es CSS y por qué es importante?
+    Sintaxis básica de CSS.
+    Selectores de CSS.
+    Propiedades CSS.
+    Inclusión de CSS en un documento HTML.
+    Estilos internos y externos.
+
+1. ¿Qué es CSS y por qué es importante?
+CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para definir la presentación y el diseño de documentos HTML. Permite separar la estructura del contenido (definido con HTML) de la presentación visual. Con CSS, podemos cambiar los colores, tamaños, fuentes y márgenes, entre otras propiedades, de nuestros elementos HTML, lo que hace que el diseño y la apariencia de nuestras páginas web sean más atractivos y profesionales.
+
+2. Sintaxis básica de CSS
+CSS se compone de reglas que contienen propiedades y valores. Cada regla tiene la siguiente estructura:
+
+selector {
+  propiedad: valor;
+  propiedad: valor;
+  /* Más propiedades y valores */
+}
+
+El selector indica qué elemento o elementos HTML queremos estilizar, y entre las llaves se definen las propiedades y sus respectivos valores que queremos aplicar a esos elementos.
+
+3. Selectores de CSS
+Los selectores son patrones que se utilizan para seleccionar los elementos HTML que queremos estilizar. Algunos ejemplos de selectores son:
+
+    Selector de etiqueta: p, h1, div, etc.
+    Selector de clase: .nombre-clase.
+    Selector de ID: #nombre-id.
+    Selector universal: * (selecciona todos los elementos).
+
+4. Propiedades CSS
+CSS ofrece una amplia variedad de propiedades para estilizar los elementos, como:
+
+    Color: color.
+    Tamaño de fuente: font-size.
+    Tipo de fuente: font-family.
+    Márgenes: margin.
+    Rellenos: padding.
+    Fondo: background.
+    Bordes: border.
+    Posicionamiento: position.
+    Y muchas más.
+
+5. Inclusión de CSS en un documento HTML
+Existen tres formas de incluir CSS en un documento HTML:
+
+    CSS interno: Se coloca el código CSS dentro de la etiqueta <style> en el <head> del documento.
+    CSS externo: Se crea un archivo .css por separado y se vincula al documento HTML usando la etiqueta <link> en el <head>.
+    Estilo en línea: Se aplica el CSS directamente a un elemento HTML mediante el atributo style.
+
+6. Estilos internos y externos
+
+    CSS interno:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de CSS Interno</title>
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <p>Este párrafo tiene estilos definidos internamente.</p>
+</body>
+</html>
+
+    CSS externo (archivo estilos.css):
+/* En el archivo estilos.css */
+p {
+  color: blue;
+  font-size: 18px;
+}
+
+html:
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de CSS Externo</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+  <p>Este párrafo tiene estilos definidos en un archivo externo.</p>
+</body>
+</html>

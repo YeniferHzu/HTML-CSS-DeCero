@@ -1,0 +1,69 @@
+/*PARA LOS H1*/
+h1{
+	color: lightblue; /*Color de letra*/
+	font-family: verdana; /*Tipo de letra*/
+	font-size: 40px; /*Tamaño de letra*/
+	padding: 80px; /*Cantidad de espacio entre el borde y contenido del elemento*/
+	margin-bottom: 40px; /*margen inferior*/
+	margin-left: 40px; /*margen izquierdo*/
+	margin-right: 40px; /*margen derecho*/
+	margin-top: 40px; /*margen superior*/
+	background: lightyellow; /*color de fondo*/
+}
+
+h2{
+	color: lightgreen;
+	font-family: times new roman;
+	font-size: 50px;
+	padding: 10px;/*Separación entre elementos*/
+	/*Borde inferior*/
+    border-bottom-style: solid; /*Define un borde solido*/
+    border-bottom-color: #000; /*color del borde inferior*/
+    border-bottom-width: 15px;/*Grosor del borde*/
+    border-bottom-right-radius: 10px;/*redonde la esquina derecha*/
+    border-bottom-left-radius: 10px;/*redondea la esquina izquierda*/
+    /*Borde izquierdo*/
+    border-left-color: yellow;/*Color izquierdo*/
+    border-left-style: solid;/*Define un borde solido*/
+    border-left-width: 15px;/*grosor del borde*/
+    /*Borde derecho*/
+    border-right-color: yellow;
+    border-right-style: solid;
+    border-right-width: 15px;
+    /*Borde superior*/
+    border-top-style: solid; /*Define un borde solido*/
+    border-top-color: #000; /*color del borde inferior*/
+    border-top-width: 15px;/*Grosor del borde*/
+    border-top-right-radius: 10px;/*redonde la esquina derecha*/
+    border-top-left-radius: 10px;/*redondea la esquina izquierda*/
+}
+
+#Yen{
+	font-family: arial black;
+	color: pink;
+	font-size: 30px;
+	padding: 20px;
+	border-bottom-color: orange;
+	border-bottom-style: dotted;
+	border-right-color: brown;
+	border-right-style: dotted;
+	border-left-color: brown;
+	border-left-style: dotted;
+	border-top-color: orange;
+	border-top-style: dotted;
+}
+
+/*PARA "border-bottom-style" se pueden usar las propiedades:
+
+none: No se muestra ningún borde inferior.
+hidden: Similar a none, pero se usa principalmente para elementos de formulario para ocultar el borde sin eliminar el espacio que ocuparía.
+dotted: El borde inferior es una línea de puntos.
+dashed: El borde inferior es una línea de guiones.
+solid: El borde inferior es una línea sólida.
+double: El borde inferior es una línea doble.
+groove: El borde inferior parece estar tallado en el lienzo.
+ridge: El borde inferior parece sobresalir del lienzo.
+inset: El borde inferior parece estar incrustado en el lienzo.
+outset: El borde inferior parece sobresalir del lienzo de forma tridimensional.
+
+*/
