@@ -1,0 +1,28 @@
+/*Posicionamiento con FLOAT*/
+.img1{
+	float: left;
+}
+
+.img2{
+	float: right;
+}
+
+.parrafo2{
+	float: right;
+}
+
+.parrafo3{
+	float: left;
+}
+
+/*LETRAS*/
+h1,h2{
+	font-family: impact;
+	color: lightblue;
+}
+
+p{
+	font-family: verdana;
+	color: black;
+	
+}

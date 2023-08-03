@@ -1,0 +1,28 @@
+SEMANA 2
+
+Clase 8: Diseño de Página y Posicionamiento
+
+	Introducción a CSS
+En esta clase, nos enfocaremos en el diseño de páginas web utilizando CSS para posicionar elementos en la página. CSS (Cascading Style Sheets) es un lenguaje de estilo que permite dar formato y diseño a los elementos HTML. Aprenderemos cómo utilizar CSS para modificar la posición de los elementos y crear diseños básicos.
+
+	Conceptos de Posicionamiento en CSS
+CSS ofrece varios mecanismos para posicionar elementos en una página web. Los principales conceptos de posicionamiento que abordaremos son los siguientes:
+-Posicionamiento estático: Es el posicionamiento predeterminado de los elementos en el flujo normal del documento. No se aplica ningún desplazamiento especial.
+-Posicionamiento relativo: Permite desplazar un elemento con respecto a su posición original. Podemos utilizar las propiedades top, right, bottom y left para definir el desplazamiento relativo.
+-Posicionamiento absoluto: Posiciona un elemento de forma absoluta con respecto a su primer ancestro posicionado (es decir, aquel que tenga un posicionamiento distinto de estático). Las propiedades top, right, bottom y left también se utilizan para definir la posición absoluta.
+-Posicionamiento fijo: Posiciona un elemento de forma fija con respecto a la ventana del navegador. El elemento permanecerá en la misma posición incluso si se realiza un desplazamiento en la página.
+-Posicionamiento por flotación (float): El atributo float permite que un elemento se desplace a la izquierda o derecha del contenedor que lo contiene, permitiendo que otros elementos fluyan alrededor de él.
+
+Creación de Diseños Básicos utilizando float
+El atributo float es especialmente útil para crear diseños básicos y sencillos. Aprenderemos cómo aplicar float a elementos y cómo lograr que los elementos fluyan uno al lado del otro.
+
+Actividades de la Clase 8: Diseño de Página y Posicionamiento
+
+-Repaso de Conceptos: Antes de empezar con la práctica, revisaremos brevemente los conceptos clave de posicionamiento en CSS. Asegúrate de entender cómo funcionan los distintos tipos de posicionamiento: estático, relativo, absoluto y fijo.
+-Creación del Archivo CSS: Primero, asegúrate de tener un archivo CSS vinculado correctamente a tu archivo HTML. Puedes utilizar el mismo archivo CSS que has estado usando en las clases anteriores, o puedes crear uno nuevo específico para esta clase.
+-Diseño Básico: Empezaremos por crear un diseño básico utilizando float. Tendremos varios elementos HTML, como imágenes y párrafos, que queremos que se posicionen uno al lado del otro. Utilizaremos el atributo float para lograrlo.
+- Aplicación del Atributo Float: En tu archivo CSS, selecciona los elementos que deseas posicionar y utiliza el atributo float para que fluyan a la izquierda o derecha del contenedor que los contiene. Observa cómo los elementos se colocan en línea y cómo otros elementos fluyen alrededor de ellos.
+-Ajustes y Detalles: Experimenta con diferentes valores de float y otros atributos de estilo para ajustar el diseño según tus preferencias. Puedes cambiar los colores, tamaños de fuente, márgenes, etc., para mejorar el aspecto visual del diseño.
+-Comprobación en el Navegador: Una vez que hayas aplicado los estilos de posicionamiento en el archivo CSS, guarda tus cambios y abre el archivo HTML en un navegador web. Asegúrate de que el diseño se vea como esperas y verifica que los elementos estén colocados correctamente.
+-Resolución de Dudas: Si encuentras algún problema o tienes dudas durante el proceso, no dudes en consultar. Puedo ayudarte a encontrar soluciones y aclarar cualquier concepto que necesites comprender mejor.
+-Opcional: Diseño Responsivo: Si te sientes cómodo con el posicionamiento utilizando float, puedes intentar hacer el diseño responsive, es decir, que se adapte a diferentes tamaños de pantalla. Puedes utilizar media queries para lograr este objetivo.
