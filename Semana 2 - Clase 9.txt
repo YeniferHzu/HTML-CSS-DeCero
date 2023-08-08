@@ -1,0 +1,103 @@
+SEAMANA 2
+Clase 9: Flexbox y Diseño Responsive
+
+Parte 1: Introducción a Flexbox
+
+Flexbox es un módulo de diseño en CSS que proporciona una forma más eficiente y sencilla de crear diseños flexibles y adaptables. Con Flexbox, podemos distribuir y alinear elementos de manera automática y dinámica, lo que facilita la creación de diseños complejos y responsive.
+
+Propiedades importantes de Flexbox:
+-display: flex;: Esta propiedad se aplica al contenedor padre y establece que sus hijos deben comportarse como elementos flexibles.
+-flex-direction: Permite especificar la dirección de los elementos flexibles dentro del contenedor. Las opciones son:
+        row: Elementos se distribuyen en una fila horizontal (valor predeterminado).
+        column: Elementos se distribuyen en una columna vertical.
+        row-reverse: Elementos se distribuyen en una fila horizontal en sentido inverso.
+        column-reverse: Elementos se distribuyen en una columna vertical en sentido inverso.
+- justify-content: Alinea los elementos flexibles a lo largo del eje principal del contenedor. Las opciones son:
+        flex-start: Alinea los elementos al inicio del eje principal.
+        flex-end: Alinea los elementos al final del eje principal.
+        center: Alinea los elementos al centro del eje principal.
+        space-between: Distribuye los elementos de manera uniforme a lo largo del eje principal, dejando espacios entre ellos.
+        space-around: Distribuye los elementos de manera uniforme a lo largo del eje principal, dejando espacios iguales alrededor de ellos.
+-align-items: Alinea los elementos flexibles a lo largo del eje secundario del contenedor. Las opciones son:
+        flex-start: Alinea los elementos al inicio del eje secundario.
+        flex-end: Alinea los elementos al final del eje secundario.
+        center: Alinea los elementos al centro del eje secundario.
+        stretch: Estira los elementos para que ocupen todo el espacio disponible en el eje secundario.
+- flex-wrap: Define si los elementos flexibles deben envolverse en múltiples líneas cuando no caben en el contenedor padre. Las opciones son:
+        nowrap: Los elementos se mantienen en una sola línea (valor predeterminado).
+        wrap: Los elementos se envuelven en varias líneas si no caben en una sola.
+        wrap-reverse: Los elementos se envuelven en varias líneas en sentido inverso.
+
+Parte 2: Diseño Responsive y Media Queries
+
+El diseño responsive es una técnica de diseño web que permite que el contenido se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, brindando una experiencia de usuario óptima sin importar el dispositivo que se utilice.
+Las Media Queries son una parte fundamental del diseño responsive en CSS. Permiten aplicar estilos específicos a diferentes tamaños de pantalla o dispositivos.
+
+Sintaxis de Media Queries:
+
+@media (max-width: 768px) {
+  /* Estilos que se aplicarán cuando la pantalla sea menor o igual a 768px */
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos que se aplicarán cuando la pantalla esté entre 769px y 1024px */
+}
+@media (min-width: 1025px) {
+  /* Estilos que se aplicarán cuando la pantalla sea mayor o igual a 1025px */
+}
+
+Con las Media Queries, podemos adaptar tamaños de fuentes, márgenes, diseños de página, y cualquier otro estilo según el tamaño de la pantalla.
+
+¿Qué son las Media Queries?
+Las Media Queries son condicionales que tú mismo defines en tu hoja de estilo CSS para aplicar diferentes estilos en función de las características de la pantalla o el dispositivo en el que se está visualizando el sitio web. No existen Media Queries predefinidas en sí, ya que cada diseño y proyecto puede requerir condiciones de adaptación específicas.
+
+Por ejemplo, podrías definir una Media Query para aplicar estilos diferentes cuando el ancho de la pantalla sea menor o igual a 768px, y otra Media Query para cuando sea mayor a 768px. La sintaxis básica es:
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas con ancho menor o igual a 768px */
+}
+
+@media (min-width: 769px) {
+  /* Estilos para pantallas con ancho mayor a 768px */
+}
+
+Dentro de estas Media Queries, puedes definir cualquier propiedad CSS que desees cambiar para adaptar el diseño. Por ejemplo, podrías cambiar el tamaño de la fuente, los márgenes, los diseños de caja, la visibilidad de elementos, etc.
+
+La flexibilidad de las Media Queries te permite personalizar tus estilos según tus necesidades y el diseño de tu sitio web, lo que es especialmente útil para lograr un diseño responsive y amigable para diferentes dispositivos y tamaños de pantalla.
+
+DUDA
+y entonces, digamos que los estilos irían dentro de la sintaxis de las media queries? algo así?
+@media (max-width: 768px) {
+ font-family: arial;
+font-size: 12px;
+}
+
+RESPUESTA
+Exactamente, has entendido bien. Dentro de la sintaxis de las Media Queries es donde colocarás los estilos que deseas aplicar cuando se cumpla la condición especificada. En tu ejemplo, estás definiendo una Media Query que se activará cuando el ancho de la pantalla sea menor o igual a 768px, y dentro de ella estás estableciendo dos propiedades de estilo: font-family y font-size.
+
+Aquí tienes el código que mencionaste:
+@media (max-width: 768px) {
+  font-family: arial;
+  font-size: 12px;
+}
+
+Esto significa que cuando el ancho de la pantalla sea 768px o menos, se aplicarán esos estilos de fuente y tamaño de fuente. Las Media Queries te permiten definir estilos específicos para diferentes rangos de tamaños de pantalla, lo que es fundamental para lograr un diseño adaptable y amigable con dispositivos móviles y pantallas de diferentes dimensiones.
+
+PROPIEDADES DE LAS MEDIA QUERIES
+-max-width: Esta propiedad establece un valor máximo para el ancho de la pantalla o del viewport. Si el ancho de la pantalla es igual o menor que el valor especificado, los estilos dentro de la Media Query se aplicarán.
+- min-width: Esta propiedad establece un valor mínimo para el ancho de la pantalla o del viewport. Si el ancho de la pantalla es igual o mayor que el valor especificado, los estilos dentro de la Media Query se aplicarán.
+-max-height y min-height: Funcionan de manera similar a "max-width" y "min-width", pero en lugar de controlar el ancho, controlan la altura de la pantalla o del viewport.
+-orientation: Te permite aplicar estilos en función de la orientación de la pantalla. Puede tener dos valores: "portrait" (vertical) y "landscape" (horizontal).
+-aspect-ratio: Permite aplicar estilos basados en la relación de aspecto entre el ancho y el alto del viewport.
+-device-width y device-height: Se refieren a las dimensiones del dispositivo físico, no al tamaño del viewport del navegador. Estas propiedades pueden ser útiles para detectar características específicas de dispositivos.
+- resolution: Permite aplicar estilos según la resolución del dispositivo. Sin embargo, esta propiedad no es tan común y puede ser más complicada de usar en la práctica.
+
+Estas propiedades pueden combinarse y utilizarse de manera conjunta en una Media Query para crear condiciones más precisas y adaptativas para tus estilos.
+
+EJERCICIO
+Para esta clase, te invito a realizar el siguiente ejercicio práctico:
+-Crea un archivo HTML y CSS con una estructura básica.
+-Utiliza Flexbox para crear un diseño flexible con una fila de elementos.
+-Utiliza Media Queries para aplicar estilos diferentes cuando la pantalla tenga un ancho menor o igual a 768px, y cuando tenga un ancho mayor a 768px.
+-Experimenta con diferentes propiedades de Flexbox y Media Queries para lograr un diseño responsive.
+
+Recuerda que puedes utilizar imágenes y contenido de tu elección para este ejercicio.

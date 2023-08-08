@@ -1,0 +1,29 @@
+Clase 10: Proyecto CSS
+
+Objetivos:
+-   Aplicar estilos a la página web creada en la semana 1.
+-Mejorar el diseño y hacerlo completamente responsive.
+
+Contenido:
+En esta clase, vamos a poner en práctica todo lo que hemos aprendido sobre estilos en CSS y responsive design aplicándolo a un proyecto concreto. Utilizaremos la página web que creaste en la primera semana y le aplicaremos estilos para mejorar su apariencia y hacerla completamente responsive, lo que significa que se verá bien en diferentes dispositivos y tamaños de pantalla.
+
+Pasos a seguir:
+-Revisión del Proyecto Inicial: Abre la página web que creaste en la semana 1 y familiarízate con su estructura y contenido.
+-Agregando Estilos: Utiliza CSS para agregar estilos a los elementos de tu página web. Puedes ajustar colores, fuentes, tamaños de texto, fondos, bordes y otros aspectos visuales para mejorar el diseño.
+-Diseño Responsivo: Utiliza media queries para hacer que tu página web sea responsive. Asegúrate de que los elementos se ajusten adecuadamente en diferentes tamaños de pantalla, desde dispositivos móviles hasta pantallas más grandes.
+- Mejora del Diseño: Piensa en cómo puedes mejorar el diseño de tu página web utilizando las técnicas que aprendiste en las clases anteriores. Puedes experimentar con diseños de cajas, posicionamiento y otros elementos visuales para lograr un aspecto más atractivo.
+- Pruebas: Realiza pruebas en diferentes dispositivos y tamaños de pantalla para asegurarte de que tu página web se vea y funcione correctamente en todos ellos.
+- Optimización: Asegúrate de que tu código CSS esté organizado y limpio. Puedes usar comentarios para etiquetar diferentes secciones de tu código y asegurarte de que sea fácil de entender y mantener.
+- Finalización: Una vez que estés satisfecho con los cambios y mejoras en tu página web, asegúrate de guardar todos los archivos y verifica que todo funcione correctamente.
+
+Actividad:
+Aplica los pasos mencionados anteriormente a tu página web. A medida que trabajas en el proyecto, no dudes en experimentar y ser creativo con los estilos y el diseño. ¡Esta es una oportunidad para mostrar tus habilidades y crear una página web atractiva y funcional!
+
+Retrospectiva:
+Al completar esta clase, habrás logrado:
+-Aplicar estilos en CSS para mejorar el diseño de una página web.
+-Hacer que una página web sea responsive utilizando media queries.
+-Practicar la optimización y organización de código CSS.
+-Realizar pruebas y ajustes para asegurarte de que la página se vea bien en diferentes dispositivos.
+
+¡Felicitaciones por llegar hasta aquí y completar tu proyecto final! Ahora tienes una página web mejorada y responsive que puedes mostrar como resultado de tu aprendizaje en este curso de repaso de HTML y CSS. ¡Sigue adelante y sigue practicando para mejorar tus habilidades aún más!

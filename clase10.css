@@ -1,0 +1,192 @@
+/*  ESTILOS DE LA CLASE 5  P R O Y E C T O   */
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*MARGENES*/
+
+body {
+	margin: 0;
+    padding: 0;
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: linear-gradient(#fff2f3, #e2f6fe); /* Aplica el fondo degradado al body */
+    background-size: cover; /* Ajusta el fondo al tamaño del body */
+    background-attachment: fixed; /* Fija el fondo para que se desplace con la página */
+}
+
+/*TÍTULOS*/
+h1,h2,h3{
+	font-family: Impact;
+	color: #ec6b76;
+	margin-top: 0; /*Elimina los márgenes predefinidos del navegador y provocan un espacio blanco*/
+}
+
+/*LETRAS DEL TEXTO*/
+ul, ol, li, th, td{
+	font-family: Arial; /*Tipo de letra*/
+	color: black; /*Color de letra*/
+	font-size: 15px; /*Tamaño de letra*/
+
+}
+
+.justificado{
+  text-align: justify;
+  font-family: arial;
+  color: black;
+  font-size: 15px;
+  padding: 20px;
+}
+
+/*ENLACES*/
+a{
+    text-decoration: none; /*Decorazión del enlace*/
+    font-size: 15px; /*Tamaño de letra*/
+    color: white; /*Color*/
+    font-family: Arial; /*Letra*/
+}
+a:hover{
+    color: #ffb0c6; /*Color al pasar el cursor*/  
+}
+
+/*MARGENES DE TABLA*/
+table{
+	border: lightblue 5px solid;/*Borde exterior*/
+}
+
+td, th {
+  border: lightblue 1px solid;
+}
+
+/*HEADER*/
+#main-header {
+  font-family: Arial Black;
+  background: #ec6b76;
+  color: white;
+  height: 80px;  
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+} 
+
+#main-header a {
+  color: white;
+}
+
+/*NAVEGACIÓN*/
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-right: 20px;
+}
+  
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+      
+nav ul li a {
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #0fc0db;
+  }
+
+
+/*CONTENIDO*/
+#main-content {
+  background: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#main-content header,
+#main-content .content {
+  padding: 40px;
+}
+
+/*FOOTER*/
+#main-footer {
+  background: #0fc0db;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#main-footer p {
+  font-family: arial;
+  font-size: 15px;
+  margin: 0;
+}
+  
+#main-footer a {
+  color: white;
+}
+
+/*TAMAÑO DE PAISAJES*/
+.paisajes{
+  width: 250px;
+  height: 150px;
+}
+
+/*SI LA PANTALLA ES MENOR A 768PX*/
+@media(max-width: 768px){
+
+.justificado{
+  text-align: justify;
+  font-family: arial;
+  color: black;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/*ENLACES*/
+a{
+    text-decoration: none; /*Decorazión del enlace*/
+    font-size: 15px; /*Tamaño de letra*/
+    color: white; /*Color*/
+    font-family: Arial; /*Letra*/
+}
+a:hover{
+    color: #ffb0c6; /*Color al pasar el cursor*/  
+}
+
+
+
+/*FOOTER*/
+#main-footer {
+  background: #0fc0db;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#main-footer p {
+  font-family: arial;
+  font-size: 18px;
+  margin: 0;
+}
+  
+
+/*TAMAÑO DE PAISAJES*/
+.paisajes{
+  display: flex;
+  width: 100px;
+  height: 50px;
+}
+}
