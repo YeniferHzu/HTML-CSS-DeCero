@@ -1,0 +1,46 @@
+SEMANA 3 Avanzando con HTML y CSS
+
+Día 11: CSS Grid
+
+En la clase de hoy, vamos a introducirte al mundo del diseño avanzado con CSS utilizando una poderosa herramienta llamada CSS Grid. Hasta ahora, hemos explorado conceptos de diseño utilizando flexbox y otras propiedades de posicionamiento. CSS Grid te permitirá crear diseños aún más complejos y flexibles, lo que te ayudará a construir páginas web más sofisticadas.
+
+¿Qué es CSS Grid y por qué es importante?
+CSS Grid es un sistema de diseño en la web que permite definir diseños en forma de cuadrícula, donde puedes colocar y controlar los elementos HTML en filas y columnas. Te proporciona un nivel de control detallado sobre el diseño de tu página, lo que lo hace especialmente útil para la creación de interfaces complejas y responsivas.
+
+Creando una cuadrícula básica
+La estructura básica de CSS Grid involucra la definición de un contenedor (grid container) y sus elementos hijos (grid items). Puedes declarar las filas y columnas en el contenedor y luego asignar los elementos a posiciones específicas dentro de esta cuadrícula.
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de tamaño igual */
+  grid-template-rows: auto; /* Filas de tamaño automático */
+}
+
+Posicionamiento de elementos
+Puedes controlar el posicionamiento de los elementos dentro de la cuadrícula utilizando propiedades como grid-row y grid-column.
+
+.grid-item {
+  grid-row: 2 / 4; /* Ocupa las filas 2 a 4 */
+  grid-column: 1 / 3; /* Ocupa las columnas 1 y 2 */
+}
+
+Diseños responsivos con CSS Grid
+CSS Grid también es altamente efectivo para la creación de diseños responsivos. Puedes ajustar automáticamente el número de columnas o filas según el tamaño de la pantalla utilizando las media queries.
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+  }
+}
+
+Creando diseños más avanzados
+Una de las ventajas de CSS Grid es su capacidad para crear diseños más complejos y personalizados. Puedes crear patrones de diseño como mosaicos, diseños en forma de L y más, todo con un control preciso.
+
+Ejercicio práctico: Creando un diseño de blog con CSS Grid
+Para practicar tus habilidades con CSS Grid, te propongo un ejercicio. Imagina que estás diseñando la página de inicio de un blog. Crea un contenedor de cuadrícula y posiciona los elementos del blog en un diseño atractivo. Asegúrate de hacer que el diseño sea completamente responsivo utilizando media queries.
+
+Recursos adicionales
+-Mozilla Developer Network (MDN) tiene una excelente documentación sobre CSS Grid.
+-CSS Grid Garden es un juego interactivo que te ayuda a aprender CSS Grid mientras resuelves acertijos.
+
+¡Con esto, estás dando un paso importante hacia el diseño web más avanzado! CSS Grid es una herramienta poderosa y versátil que te permitirá crear diseños de página flexibles y adaptables. ¡Sigue practicando y experimentando para dominar aún más esta habilidad!
