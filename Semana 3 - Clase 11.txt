@@ -42,5 +42,10 @@ Para practicar tus habilidades con CSS Grid, te propongo un ejercicio. Imagina q
 Recursos adicionales
 -Mozilla Developer Network (MDN) tiene una excelente documentación sobre CSS Grid.
 -CSS Grid Garden es un juego interactivo que te ayuda a aprender CSS Grid mientras resuelves acertijos.
+-->Recurso adicional:
+https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/
+-->A Y U D A     C O N    C S S     G R I D     G A R D E N
+https://gist.github.com/mrcodedev/a803a7602d0ddbbd1d45cb48ef4e9287
+https://programmerclick.com/article/90331719991/
 
 ¡Con esto, estás dando un paso importante hacia el diseño web más avanzado! CSS Grid es una herramienta poderosa y versátil que te permitirá crear diseños de página flexibles y adaptables. ¡Sigue practicando y experimentando para dominar aún más esta habilidad!

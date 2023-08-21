@@ -1,0 +1,69 @@
+/*LETRAS*/
+h1{
+	font-family: Cooper Black;
+	color: #3498db;
+	text-align: center;
+}
+
+h2{
+	font-family: Britannic Bold;
+	color: orange;
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	font-family: consolas;
+}
+
+
+/*ESTILOS PARA LOS EJEMPLOS*/
+.ejemplos{
+	font-family: Lucida Console;
+	color: orange;
+	text-align: center;
+}
+
+
+/* EJEMPLO 1: TRANSICIÓN */
+.button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease; /* Define la propiedad a animar y la duración */
+}
+
+.button:hover {
+  background-color: #2980b9; /* Nuevo color de fondo al pasar el cursor por encima */
+}
+
+/*EJEMPLO 2: ANIMACIÓN*/
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.animated-element {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  animation: slide 2s linear infinite; /* Nombre de la animación, duración, temporización y repetición */
+}
+
+/*E J E R C I C I O S*/
+#ejercicio1{
+	background-color: lightgreen;
+	color: white;
+	font-family: Arial;
+	border: none;
+	transition: background-color linear;
+}
+
+#ejercicio1:hover{
+	background-color: green;
+}

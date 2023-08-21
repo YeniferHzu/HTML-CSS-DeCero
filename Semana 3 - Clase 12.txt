@@ -1,0 +1,143 @@
+Semana 3: Avanzando con HTML y CSS
+
+Día 12: Transiciones y Animaciones
+
+Objetivos:
+En esta clase, vamos a sumergirnos en el emocionante mundo de las transiciones y animaciones CSS. Aprenderemos cómo dar vida a nuestros sitios web mediante efectos visuales interactivos y dinámicos.
+
+Contenido:
+Repaso Rápido de CSS:
+        Haremos un breve repaso de las propiedades CSS que ya conocemos y que serán relevantes para crear transiciones y animaciones.
+
+Transiciones: Cambios Suaves:
+- Introducción a las transiciones CSS y cómo pueden hacer que los cambios de estilo sean más suaves.
+- Sintaxis clave: transition-property, transition-duration, transition-timing-function, transition-delay.
+- Ejemplos prácticos: Cambio de color suave en los enlaces al pasar el cursor.
+Transiciones para Mejorar la Interacción:
+-Cómo aplicar transiciones a botones y otros elementos interactivos para una experiencia más agradable.
+- Creación de efectos de desvanecimiento en imágenes al pasar el ratón sobre ellas.
+ Animaciones CSS: Añadiendo Dinamismo:
+-Introducción a las animaciones CSS y cómo difieren de las transiciones.
+-Uso de @keyframes para definir los estados de la animación.
+-Propiedades clave de animación: animation-name, animation-duration, animation-timing-function, animation-iteration-count, animation-delay.
+Creando una Animación Simple:
+-Vamos a definir una animación básica utilizando @keyframes que cambie el color de fondo de un botón.
+ Aplicando Animaciones en la Entrada:
+-Cómo hacer que elementos como encabezados o secciones tengan un efecto de entrada animado cuando se cargue la página.
+        Ejemplo: un subtítulo que aparece con un efecto de deslizamiento.
+Jugando con Rotaciones y Rebotes:
+- Vamos a explorar cómo agregar animaciones de rotación a elementos para llamar la atención.
+-Creación de un elemento que rebota ligeramente al cargarse la página.
+Mezclando Transiciones y Animaciones:
+-Combinación de transiciones y animaciones para lograr efectos más complejos y atractivos.
+        Ejemplo: un botón que cambia de color con una animación sutil al hacer clic.
+-Práctica Guiada:
+        Trabajaremos juntos en ejercicios prácticos para aplicar transiciones y animaciones a elementos específicos en una página web de ejemplo.
+
+Transiciones CSS:
+Las transiciones en CSS te permiten animar gradualmente cambios en propiedades de estilo, como color, tamaño, posición, entre otros. Para crear una transición, necesitas:
+
+-Propiedad a Animar: Debes seleccionar la propiedad CSS que deseas animar. Puede ser cualquier propiedad que acepte un valor numérico, como color, width, height, opacity, transform, etc.
+- Duración: Define cuánto tiempo durará la transición usando transition-duration. Por ejemplo, puedes establecer transition-duration: 0.5s para que dure medio segundo.
+-Tipo de Transición: Especifica cómo la transición se comportará en términos de velocidad utilizando transition-timing-function. Algunas opciones comunes son:
+        ease: Comienza lentamente, acelera en el medio y luego desacelera al final (es el valor predeterminado).
+        linear: La transición ocurre a una velocidad constante.
+        ease-in: Comienza lentamente y luego acelera.
+        ease-out: Comienza rápido y luego desacelera.
+        ease-in-out: Comienza lentamente, acelera en el medio y luego desacelera al final.
+-Estado Inicial y Final: Define el estado inicial (antes de la interacción) y el estado final (después de la interacción) de la propiedad que deseas animar. Esto generalmente se logra aplicando un estilo al estado inicial y un estilo diferente al estado final.
+-Activación de la Transición: Normalmente, las transiciones se activan aplicando el cambio de estilo en respuesta a una acción del usuario, como al pasar el mouse sobre un elemento o al enfocarlo.
+
+Ejemplo de Transición CSS:
+Supongamos que quieres una transición suave en el color de fondo de un botón al pasar el mouse sobre él:
+
+.button {
+  background-color: blue;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+Este código hará que el botón cambie su color de fondo de azul a rojo suavemente durante medio segundo cuando el mouse pasa sobre él.
+
+Animaciones CSS:
+Las animaciones en CSS te permiten crear secuencias de cambios de estilo más complejas y personalizadas. Para crear una animación, necesitas:
+
+-Definir la Animación: Define la animación utilizando @keyframes. Esto especifica cómo cambian gradualmente los estilos a lo largo de la animación en una serie de puntos clave (keyframes).
+-Asignar la Animación: Aplica la animación a un elemento utilizando la propiedad animation. Esto incluye la duración, el nombre de la animación y la función de temporización.
+-Efectos Personalizados: Puedes crear efectos personalizados en cada punto clave (keyframe) de la animación, modificando las propiedades de estilo.
+
+Ejemplo de Animación CSS:
+Aquí hay un ejemplo de una animación que hace que un elemento gire continuamente en sentido horario:
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 2s linear infinite;
+}
+
+Este código hace que un elemento con la clase "rotate" gire continuamente en sentido horario durante 2 segundos.
+
+EJEMPLOS
+Vamos a ver algunos ejemplos para que puedas comprender estos conceptos en detalle.
+
+Transiciones en CSS:
+Las transiciones permiten cambiar gradualmente un estilo de un elemento en respuesta a un evento, como un hover (pasar el cursor por encima) en un enlace. Aquí hay un ejemplo de cómo crear una transición suave en el color de fondo de un botón cuando el cursor pasa por encima:
+
+/* CSS */
+.button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease; /* Define la propiedad a animar y la duración */
+}
+
+.button:hover {
+  background-color: #2980b9; /* Nuevo color de fondo al pasar el cursor por encima */
+}
+
+En este ejemplo, hemos definido una transición para la propiedad background-color que dura 0.3 segundos (0.3s) y utiliza una función de temporización suave (ease). Cuando el cursor pasa por encima del botón, el color de fondo cambia gradualmente en lugar de cambiar instantáneamente.
+
+Animaciones en CSS:
+Las animaciones en CSS permiten crear efectos más complejos y controlados. Aquí hay un ejemplo de cómo crear una animación de un elemento que se desplaza de izquierda a derecha de forma continua:
+
+/* CSS */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.animated-element {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  animation: slide 2s linear infinite; /* Nombre de la animación, duración, temporización y repetición */
+}
+
+En este caso, hemos definido una animación llamada slide que utiliza @keyframes para especificar cómo debe cambiar el elemento a lo largo del tiempo. Luego, aplicamos esta animación al elemento .animated-element. Se desplazará de izquierda a derecha en un ciclo infinito.
+
+Ejercicio Práctico:
+Ahora, para practicar lo que has aprendido, intenta lo siguiente:
+-Define una transición en CSS para suavizar un cambio en una propiedad de un elemento cuando se coloca el cursor sobre él. Por ejemplo, puedes animar el color de fondo de un botón.
+-Crea una animación en CSS utilizando @keyframes. Puedes experimentar con diferentes propiedades y valores para lograr diferentes efectos.
+-Aplica estas transiciones y animaciones a elementos en tu página web de práctica o proyecto, como botones, imágenes o texto.
+-Ajusta la duración y la función de tiempo de las transiciones y animaciones para ver cómo afectan el comportamiento visual.
+- Explora más propiedades y opciones disponibles para personalizar tus transiciones y animaciones en CSS.
+
+Recuerda que la práctica es fundamental para comprender completamente cómo funcionan las transiciones y animaciones en CSS. ¡Diviértete experimentando y mejorando tus habilidades de diseño web!
