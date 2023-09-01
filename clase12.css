@@ -48,7 +48,7 @@ p{
   }
 }
 
-.animated-element {
+#animated-element {
   width: 50px;
   height: 50px;
   background-color: #e74c3c;
@@ -56,6 +56,8 @@ p{
 }
 
 /*E J E R C I C I O S*/
+
+/*BOTÓN 1*/
 #ejercicio1{
 	background-color: lightgreen;
 	color: white;
@@ -66,4 +68,59 @@ p{
 
 #ejercicio1:hover{
 	background-color: green;
+}
+
+/*BOTÓN 2*/
+#ejercicio2{
+	background-color: yellow;
+	color: black;
+	font-family: arial;
+	border-right-color: orange;
+	transition: background-color linear
+}
+
+#ejercicio2:hover{
+	background-color: brown;
+}
+
+/*ANIMACIÓN 1*/
+@keyframes slidein {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.animated-element{
+	width: 100px;
+	height: 100px;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	background-color: yellow;
+	animation: slidein 4s linear infinite;
+}
+
+/*ANIMACIÓN 2*/
+@keyframes slide{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(100px);
+	}
+}
+
+.animated-element2{
+	width: 100px;
+	height: 100px;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	background-color: lightblue;
+	animation: slide 1s linear infinite;
 }

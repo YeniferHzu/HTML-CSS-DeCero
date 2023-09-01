@@ -153,192 +153,21 @@ div{
 
 /*SI LA PANTALLA ES IGUAL O MENOR A 900PX --> VALOR MÁXIMO*/
   @media(max-width: 900px){
-
-      /*DEFINIENDO LOS GRID*/
-      .grid-container{
-        display: grid;
-        grid-template-columns: 10% 80% 10%; /*Define 3 columnas*/
-        grid-template-rows: 20;
-      }
-
-      /*GRID DE LA CABECERA*/
-      #main-header{
-        grid-column: 1/2;/*Ocupa filas 1 a 3*/
-        grid-row: 1;
-      }
-
-      /*GRID PARA LA IMG DE PORTADA*/
-      .portada{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        width: 600px;
-        height: 400px;
-      }
-
-      /*GRID PARA EL FOOTER*/
-      #main-footer{
-        grid-column: 1/2;
-        grid-row: repeat(20, 1fr);
-      }
-
-      /*GRID DEL MAIN-CONTENT*/
-      #main-content{
-        grid-column: 2;
-        grid-row-start: 2;
-        grid-row-end: 12;
-      }
-
-      /*GRID PARA LA TERCERA COLUMNA*/
-      .derecha {
-        grid-column: 2; /* Colocar en la columna 3 */
-        grid-row-start: 13; /* Comenzar desde la fila 3 */
-        grid-row-end: 19; /* Terminar en la fila 9 (8 + 1) */
-        padding: 3em;
-      }
+      
     }
 
   /*SI LA PANTALLA ES IGUAL O MENOR A 850PX --> VALOR MÁXIMO*/
   @media(max-width: 850px){
 
-      /*DEFINIENDO LOS GRID*/
-      .grid-container{
-        display: grid;
-        grid-template-columns: 10% 80% 10%; /*Define 3 columnas*/
-        grid-template-rows: 20;
-      }
-
-      /*GRID DE LA CABECERA*/
-      #main-header{
-        grid-column: 1/2;/*Ocupa filas 1 a 3*/
-        grid-row: 1;
-      }
-
-      /*GRID PARA LA IMG DE PORTADA*/
-      .portada{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        width: 600px;
-        height: 400px;
-      }
-
-      /*GRID PARA EL FOOTER*/
-      #main-footer{
-        grid-column: 1/2;
-        grid-row: repeat(20, 1fr);
-      }
-
-      /*GRID DEL MAIN-CONTENT*/
-      #main-content{
-        grid-column: 2;
-        grid-row-start: 2;
-        grid-row-end: 12;
-      }
-
-      /*GRID PARA LA TERCERA COLUMNA*/
-      .derecha {
-        grid-column: 2; /* Colocar en la columna 3 */
-        grid-row-start: 13; /* Comenzar desde la fila 3 */
-        grid-row-end: 19; /* Terminar en la fila 9 (8 + 1) */
-        padding: 3em;
-      }
+      
     }
 
     /*SI LA PANTALLA ES IGUAL O MENOR A 500PX --> VALOR MÁXIMO*/
     @media(max-width: 500px){
-        /*GRID PARA LA IMG DE PORTADA*/
-        .portada{
-          grid-column-start: 1;
-          grid-column-end: 2;
-          width: 300px;
-          height: 200px;
-        }
+        
     }
 
     /*SI LA PANTALLA ES IGUAL O MENOR A 300PX --> VALOR MÁXIMO*/
     @media(max-width: 500px){
-        /*DEFINIENDO LOS GRID*/
-        .grid-container{
-          display: grid;
-          grid-template-columns: 5% 90% 5%; /*Define 3 columnas*/
-          grid-template-rows: 20;
-        }
-
-        /*GRID DE LA CABECERA*/
-        #main-header{
-          grid-column: 1/2;/*Ocupa filas 1 a 3*/
-          grid-row: 1;
-        }
-
-        /*GRID PARA LA IMG DE PORTADA*/
-        .portada{
-          grid-column-start: 1;
-          grid-column-end: 2;
-          width: 150px;
-          height: 100px;
-        }
-
-        /*GRID PARA EL FOOTER*/
-        #main-footer{
-          grid-column: 1/2;
-          grid-row: repeat(20, 1fr);
-        }
-
-        /*GRID DEL MAIN-CONTENT*/
-        #main-content{
-          grid-column: 2;
-          grid-row-start: 2;
-          grid-row-end: 12;
-        }
-
-        /*GRID PARA LA TERCERA COLUMNA*/
-        .derecha {
-          grid-column: 2; /* Colocar en la columna 3 */
-          grid-row-start: 13; /* Comenzar desde la fila 3 */
-          grid-row-end: 19; /* Terminar en la fila 9 (8 + 1) */
-          padding: 3em;
-        }
-
-        /*HEADER*/
-        #main-header {
-          font-family: Arial Black;
-          background: black;
-          color: white;
-          height: 80px;  
-          width: 100%;
-          left: 0;
-          top: 0;
-          position: fixed;
-          size: 40px;
-        } 
-
-        #main-header a {
-          color: white;
-        }
-
-        /*NAVEGACIÓN*/
-        nav {
-          float: right;
-        }
-
-        nav ul {
-          margin: 0;
-          padding: 0;
-          list-style: none;
-          padding-right: 20px;
-        }
-          
-        nav ul li {
-          display: inline-block;
-          line-height: 40px;
-        }
-              
-        nav ul li a {
-          display: block;
-          padding: 0 10px;
-          text-decoration: none;
-        }
-
-        nav ul li a:hover {
-          background: #0fc0db;
-          }
+        
 }

@@ -1,0 +1,32 @@
+Clase 14: Proyecto Final
+
+¡Felicitaciones! Llegaste al último día de este curso de repaso de HTML y CSS. En esta clase, pondremos en práctica todo lo que has aprendido hasta ahora para crear un proyecto web completo. El proyecto final te permitirá aplicar todos los conceptos y técnicas que hemos cubierto a lo largo de este curso.
+Descripción del Proyecto
+
+El proyecto final consistirá en desarrollar un sitio web completo desde cero. Puedes elegir el tema que desees, ya sea un blog personal, una página de portafolio, una tienda en línea ficticia o cualquier otra idea que te inspire.
+Pasos para Desarrollar el Proyecto
+
+    Planificación: Antes de comenzar a escribir código, es importante planificar tu proyecto. Define la estructura general de tu sitio web, las páginas que incluirás y cómo se organizarán. Piensa en la navegación y la experiencia del usuario.
+
+    Creación de la Estructura HTML: Comienza creando la estructura HTML de tu sitio web. Crea archivos HTML separados para cada página que hayas planificado. Utiliza etiquetas semánticas apropiadas para organizar tu contenido.
+
+    Estilización con CSS: Una vez que tengas la estructura HTML, utiliza CSS para dar estilo a tu sitio web. Aplica estilos a tus elementos utilizando selectores y propiedades CSS. Asegúrate de que tu sitio sea atractivo y fácil de leer.
+
+    Interactividad: Agrega interactividad a tu sitio web utilizando JavaScript si lo deseas. Puedes crear formularios de contacto, galerías de imágenes deslizantes o cualquier otra característica interactiva que desees incluir.
+
+    Responsividad: Asegúrate de que tu sitio web sea completamente responsive. Utiliza media queries para adaptar tu diseño a diferentes tamaños de pantalla, como computadoras de escritorio, tabletas y dispositivos móviles.
+
+    Optimización: Optimiza tu código HTML y CSS para que tu sitio web cargue rápidamente. Comprueba que todas las imágenes estén optimizadas y utiliza compresión de archivos si es necesario.
+
+    Pruebas: Realiza pruebas exhaustivas en diferentes navegadores y dispositivos para asegurarte de que tu sitio web funcione correctamente en todas partes.
+
+    Revisión y Mejora: Después de completar tu proyecto, tómate un tiempo para revisar y mejorar tu código y diseño. Asegúrate de que todo esté pulido y listo para ser presentado.
+
+Recomendaciones Finales
+
+    No dudes en ser creativo y explorar tus propias ideas en este proyecto final.
+    Utiliza lo aprendido en las clases anteriores sobre HTML, CSS y, si lo deseas, JavaScript.
+    Siéntete libre de agregar elementos adicionales a tu proyecto, como animaciones, efectos de desplazamiento, transiciones, etc.
+    No te preocupes si enfrentas desafíos en el camino. La resolución de problemas es una parte importante del desarrollo web.
+
+¡Disfruta de la creación de tu proyecto final y felicidades por llegar tan lejos en este curso de repaso de HTML y CSS!
